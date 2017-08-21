@@ -1,0 +1,289 @@
+.under_line {
+	border-bottom: 1px solid red;
+}
+.h2Title {
+	height: 76px;
+	font: normal 700 24px/76px "微软雅黑";
+	text-align: center;
+	position: relative;
+}
+.h2Title_lg {
+	height: 80px;
+	font: normal 700 28px/80px "微软雅黑";
+	text-align: center;
+	position: relative;
+}
+.white {
+	color: #fff !important;
+}
+.bgRed {
+	background-color: red;
+}
+.p1 {
+	font: normal 700 18px/36px "微软雅黑";
+	height: 36px;
+	padding-left: 10px;
+}
+.p2 {
+	font-family: "微软雅黑";
+	padding-left: 10px;
+}
+.caipu_p1 {
+	font: normal 700 22px/50px "微软雅黑";
+	height: 50px;
+	padding-left: 25px;
+}
+.caipu_p2 {
+	font: normal normal 16px "微软雅黑";
+	
+	padding-left: 20px;
+	
+}
+.more {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #666;
+	font-size: 12px;
+}
+/* 首页导航 B */
+.nav {
+	height: 77px;
+	background-color: #fff;
+}
+.nav .nav_c {
+	height: 77px;
+}
+.nav .nav_c li {
+	float: left;
+	height: 77px;
+	font: normal normal 18px/77px "微软雅黑";
+	margin-right: 25px;
+}
+.nav .nav_c li a {
+	color: #666;
+}
+.nav .nav_c li a:hover {
+	color: red;
+}
+/* 首页导航 E */
+/* 首页banner B */
+.banner {
+	position: relative;
+}
+.banner ul {
+	width: 1320px;
+	margin: 0 auto;
+}
+.banner ul li {
+	float: left;
+	width: 330px;
+	background-color: red;
+	position: relative;
+}
+.banner ul li img {
+	vertical-align: middle;
+}
+.banner .des {
+	width: 330px;
+	height: 63px;
+	background-color: rgba(255,255,255,.6);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.banner .lv {
+	height: 40px;
+	width: 100px;
+	background-color: #569024;
+	position: absolute;
+	bottom: 43px;
+	right: 20px;
+	color: #fff;
+	font: normal normal 15px/40px "微软雅黑";
+	text-align: center;
+}
+.banner .arrow  a {
+	display: inline-block;
+	width: 161px;
+	height: 90px;
+	position: absolute;
+	top: 160px;
+	background: url(../images/spirit.png) no-repeat;
+}
+.banner .arrow  .turn_left {
+	left: 130px;
+	background-position: -122px 0;
+}
+.banner .arrow  .turn_right {
+	right: 130px;
+	background-position: -122px -97px;
+}
+.banner .arrow .turn_left .word {
+	display: inline-block;
+	height: 48px;
+	line-height: 24px;
+	margin: 23px 15px 0 35px;
+	text-align: right;
+	color: #fff;
+}
+.banner .arrow .turn_left .img {
+	vertical-align: top;
+	display: inline-block;
+	width: 20px;
+	height: 37px;
+	margin-top: 26px;
+	background: url(../images/spirit.png);
+	background-position: 0 -158px;
+}
+.banner .arrow .turn_right .word {
+	display: inline-block;
+	height: 48px;
+	line-height: 24px;
+	margin-top: 23px;
+	color: #fff;
+}
+.banner .arrow .turn_right .img {
+	vertical-align: top;
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	margin: 26px 5px 0 10px;
+	background: url(../images/spirit.png);
+	background-position: 0 -110px;
+}
+/* 首页banner E */
+
+/* 首页搜索 E */
+.search {
+	height: 100px;
+	background-color: #3F3A32;
+	overflow: hidden;
+}
+.search .s_center {
+	width: 728px;
+	height: 77px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+.search .s_center .txt {
+	width: 510px;
+	height: 77px;
+	outline: none;
+	font: normal normal 18px "微软雅黑";
+	padding-left: 45px; 
+}
+.search .s_center .btn {
+	height: 77px;
+	width: 172px;
+	background-color: red;
+	border: none;
+	outline: none;
+	font: normal normal 18px "微软雅黑";
+	color: #fff;
+}
+/* 首页搜索 E */
+/* 首页菜单 B */
+.menu {
+	overflow: hidden;
+}
+.menu .img {
+	width: 1010px;
+}
+.menu .img li {
+	width: 334px;
+	float: left;
+}
+.menu .img img {
+	vertical-align: middle;
+}
+.menu .img .word {
+	height: 57px;
+	width: 334px;
+	background-color: #fff;
+}
+.arrow_pos {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.arrow_pos .arrow a {
+	display: inline-block;
+	width: 30px;
+	height: 89px;
+	position: absolute;
+	top: 145px;
+	background: url(../images/spirit.png);
+}
+.arrow_pos .arrow .a1 {
+	background-position: -208px -194px;
+	left: 30px;
+}
+.arrow_pos .arrow .a2 {
+	background-position: -249px -194px;
+	right: 30px;
+}
+/* 首页菜单 E */
+/* 首页食材 B */
+.food {
+	overflow: hidden;
+}
+.food .f_nav {
+	background-color: white;
+}
+.food .f_nav li {
+	float: left;
+	height: 42px;
+	width: 103px;
+	font: normal 700 22px/42px "微软雅黑";
+	text-align: center;
+}
+.food .f_nav li a {
+	color: #666;
+}
+.food .f_img {
+	width: 1010px;
+}
+.food .f_img li {
+	float: left;
+	width: 167px;
+	height: 167px;
+	background-color: #fff;
+	position: relative;
+	text-align: center;
+}
+.food .f_img li img {
+	vertical-align: middle;
+}
+.food .f_img li span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	width: 167px;
+	background-color: rgba(255,255,255,.6);
+	line-height: 60px;
+	font: normal 700 18px/60px "微软雅黑";
+}
+/* 首页食材 E */
+/* 首页菜谱 B */
+.caipu {
+	overflow: hidden;
+}
+.caipu .img {
+	width: 1010px;
+}
+.caipu .img li {
+	width: 334px;
+	float: left;
+}
+.caipu .img img {
+	vertical-align: middle;
+}
+.caipu .img .word {
+	height: 90px;
+	width: 334px;
+	background-color: #fff;
+}
+/* 首页菜谱 E */
